@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos específicos para diferentes secciones */
+#welcome {
+    background-color: #fff;
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#photos img {
+    width: 300px;
+    margin: 10px;
+}
+
+#company-description,
+#team,
+#service-list,
+#contact-form,
+#contact-info {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de contacto */
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form form label {
+    margin-bottom: 5px;
+}
+
+#contact-form form input[type="text"],
+#contact-form form input[type="email"],
+#contact-form form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#contact-form form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para la información de contacto */
+#contact-info {
+    text-align: center;
+}
+
+#map {
+    height: 300px; /* Ajusta la altura según sea necesario */
+    margin-top: 20px;
+}
