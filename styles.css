@@ -7,6 +7,14 @@ body {
     color: #333;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
